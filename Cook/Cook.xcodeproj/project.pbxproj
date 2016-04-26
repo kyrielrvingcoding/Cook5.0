@@ -27,11 +27,8 @@
 		1CDD52F21CCB71C000A6C837 /* TYCircleMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDD52EB1CCB71C000A6C837 /* TYCircleMenu.m */; };
 		1CDD52F31CCB71C000A6C837 /* TYCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDD52EE1CCB71C000A6C837 /* TYCircleView.m */; };
 		1CDD52F61CCB73CE00A6C837 /* RecipeListWaterfallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDD52F51CCB73CE00A6C837 /* RecipeListWaterfallViewController.m */; };
-		1CDD52FC1CCB7E2100A6C837 /* RecipeListWaterfallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDD52FB1CCB7E2100A6C837 /* RecipeListWaterfallCell.m */; };
-		1CDE96AD1CCDEAE400FF56AE /* RecipeWaterfallFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE96AC1CCDEAE400FF56AE /* RecipeWaterfallFlowLayout.m */; };
 		1CDE96B11CCDEBAD00FF56AE /* NewWorkListWaterfallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE96B01CCDEBAD00FF56AE /* NewWorkListWaterfallViewController.m */; };
 		1CDE96B41CCDEC8200FF56AE /* NewWorkWaterfallModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE96B31CCDEC8200FF56AE /* NewWorkWaterfallModel.m */; };
-		1CDE96B71CCDEF4100FF56AE /* NewWorkListWaterfallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE96B61CCDEF4100FF56AE /* NewWorkListWaterfallCell.m */; };
 		1CDE96F91CCE11AE00FF56AE /* RecipeSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE96F81CCE11AE00FF56AE /* RecipeSearchBar.m */; };
 		1CE02C681CCEFE2500337539 /* RecipeSearchCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE02C651CCEFE2500337539 /* RecipeSearchCollectionCell.m */; };
 		1CE02C691CCEFE2500337539 /* RecipeSearchReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE02C671CCEFE2500337539 /* RecipeSearchReusableView.m */; };
@@ -46,6 +43,38 @@
 		770FC5CF1CCE1E250047F5E5 /* HyLoglnButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 770FC5C81CCE1E250047F5E5 /* HyLoglnButton.m */; };
 		770FC5D01CCE1E250047F5E5 /* HyTransitions.m in Sources */ = {isa = PBXBuildFile; fileRef = 770FC5CA1CCE1E250047F5E5 /* HyTransitions.m */; };
 		770FC5D11CCE1E250047F5E5 /* SpinerLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 770FC5CC1CCE1E250047F5E5 /* SpinerLayer.m */; };
+		773AE8E01CCF594F0000A46C /* NSURL+AppendingURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 773AE8DF1CCF594F0000A46C /* NSURL+AppendingURL.m */; };
+		773AE8EB1CCF59880000A46C /* NewRecipeDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 773AE8E21CCF59880000A46C /* NewRecipeDetailModel.m */; };
+		773AE8EC1CCF59880000A46C /* IngredientsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 773AE8E41CCF59880000A46C /* IngredientsModel.m */; };
+		773AE8ED1CCF59880000A46C /* Makingsteps.m in Sources */ = {isa = PBXBuildFile; fileRef = 773AE8E61CCF59880000A46C /* Makingsteps.m */; };
+		773AE8EE1CCF59880000A46C /* CommentsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 773AE8E81CCF59880000A46C /* CommentsModel.m */; };
+		773AE8EF1CCF59880000A46C /* NewUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 773AE8EA1CCF59880000A46C /* NewUserModel.m */; };
+		773AE8F21CCF59AB0000A46C /* NewRecipeDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 773AE8F11CCF59AB0000A46C /* NewRecipeDetailController.m */; };
+		773AE8F51CCF59C10000A46C /* RecipeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 773AE8F41CCF59C10000A46C /* RecipeDetailViewController.m */; };
+		773AE9051CCF5A1B0000A46C /* RecipeListWaterfallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 773AE9001CCF5A1B0000A46C /* RecipeListWaterfallCell.m */; };
+		773AE9061CCF5A1B0000A46C /* NewWorkListWaterfallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 773AE9021CCF5A1B0000A46C /* NewWorkListWaterfallCell.m */; };
+		773AE9071CCF5A1B0000A46C /* RecipeWaterfallFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 773AE9041CCF5A1B0000A46C /* RecipeWaterfallFlowLayout.m */; };
+		773AE90E1CCF5A310000A46C /* RecipeDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 773AE9091CCF5A310000A46C /* RecipeDetailModel.m */; };
+		773AE90F1CCF5A310000A46C /* StepListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 773AE90B1CCF5A310000A46C /* StepListModel.m */; };
+		773AE9101CCF5A310000A46C /* materialListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 773AE90D1CCF5A310000A46C /* materialListModel.m */; };
+		773AE9131CCF5A410000A46C /* VideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 773AE9121CCF5A410000A46C /* VideoModel.m */; };
+		773AE91A1CCF5A4E0000A46C /* PlayVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 773AE9151CCF5A4E0000A46C /* PlayVIew.m */; };
+		773AE91B1CCF5A4E0000A46C /* PlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773AE9161CCF5A4E0000A46C /* PlayView.xib */; };
+		773AE91C1CCF5A4E0000A46C /* VideoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 773AE9181CCF5A4E0000A46C /* VideoTableViewCell.m */; };
+		773AE91D1CCF5A4E0000A46C /* VideoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773AE9191CCF5A4E0000A46C /* VideoTableViewCell.xib */; };
+		773AE9221CCF5A6B0000A46C /* AVPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 773AE91F1CCF5A6B0000A46C /* AVPlayerController.m */; };
+		773AE9231CCF5A6B0000A46C /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 773AE9211CCF5A6B0000A46C /* VideoViewController.m */; };
+		773AE9351CCF5B420000A46C /* RecipeDetailFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 773AE9251CCF5B420000A46C /* RecipeDetailFooterView.m */; };
+		773AE9361CCF5B420000A46C /* RecipeDetailFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773AE9261CCF5B420000A46C /* RecipeDetailFooterView.xib */; };
+		773AE9371CCF5B420000A46C /* NewRecipeDetailFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 773AE9281CCF5B420000A46C /* NewRecipeDetailFootView.m */; };
+		773AE9381CCF5B420000A46C /* NewRecipeDetailFootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773AE9291CCF5B420000A46C /* NewRecipeDetailFootView.xib */; };
+		773AE9391CCF5B420000A46C /* NewRecipeDetailStepCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 773AE92B1CCF5B420000A46C /* NewRecipeDetailStepCell.m */; };
+		773AE93A1CCF5B420000A46C /* NewRecipeDetailStepCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773AE92C1CCF5B420000A46C /* NewRecipeDetailStepCell.xib */; };
+		773AE93B1CCF5B420000A46C /* RecipeDetailHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 773AE92E1CCF5B420000A46C /* RecipeDetailHeaderView.m */; };
+		773AE93C1CCF5B420000A46C /* RecipeDetailHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773AE92F1CCF5B420000A46C /* RecipeDetailHeaderView.xib */; };
+		773AE93D1CCF5B420000A46C /* RecipeMaterialCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 773AE9311CCF5B420000A46C /* RecipeMaterialCell.m */; };
+		773AE93E1CCF5B420000A46C /* RecipeMaterialCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773AE9321CCF5B420000A46C /* RecipeMaterialCell.xib */; };
+		773AE93F1CCF5B420000A46C /* RecipeDetailStepCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 773AE9341CCF5B420000A46C /* RecipeDetailStepCell.m */; };
 		77A8CEAD1CCB042F00A5CB46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A8CEAC1CCB042F00A5CB46 /* main.m */; };
 		77A8CEB01CCB042F00A5CB46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A8CEAF1CCB042F00A5CB46 /* AppDelegate.m */; };
 		77A8CEB31CCB042F00A5CB46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A8CEB21CCB042F00A5CB46 /* ViewController.m */; };
@@ -64,7 +93,6 @@
 		77A8CF371CCB08A500A5CB46 /* NSTimer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A8CF331CCB08A500A5CB46 /* NSTimer+Addition.m */; };
 		77A8CF3E1CCB08D600A5CB46 /* CycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A8CF3D1CCB08D600A5CB46 /* CycleScrollView.m */; };
 		77A8CF421CCB0ACE00A5CB46 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A8CF411CCB0ACE00A5CB46 /* HomeViewController.m */; };
-		77A8CF671CCB0CB300A5CB46 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A8CF661CCB0CB300A5CB46 /* VideoViewController.m */; };
 		77A8CF731CCB224800A5CB46 /* BaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A8CF6E1CCB224800A5CB46 /* BaseCollectionViewCell.m */; };
 		77A8CF741CCB224800A5CB46 /* BaseCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77A8CF6F1CCB224800A5CB46 /* BaseCollectionViewCell.xib */; };
 		77A8CF751CCB224800A5CB46 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A8CF711CCB224800A5CB46 /* BaseTableViewCell.m */; };
@@ -139,16 +167,10 @@
 		1CDD52EE1CCB71C000A6C837 /* TYCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCircleView.m; sourceTree = "<group>"; };
 		1CDD52F41CCB73CE00A6C837 /* RecipeListWaterfallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeListWaterfallViewController.h; sourceTree = "<group>"; };
 		1CDD52F51CCB73CE00A6C837 /* RecipeListWaterfallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeListWaterfallViewController.m; sourceTree = "<group>"; };
-		1CDD52FA1CCB7E2100A6C837 /* RecipeListWaterfallCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeListWaterfallCell.h; sourceTree = "<group>"; };
-		1CDD52FB1CCB7E2100A6C837 /* RecipeListWaterfallCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeListWaterfallCell.m; sourceTree = "<group>"; };
-		1CDE96AC1CCDEAE400FF56AE /* RecipeWaterfallFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeWaterfallFlowLayout.m; sourceTree = "<group>"; };
-		1CDE96AE1CCDEAED00FF56AE /* RecipeWaterfallFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeWaterfallFlowLayout.h; sourceTree = "<group>"; };
 		1CDE96AF1CCDEBAD00FF56AE /* NewWorkListWaterfallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewWorkListWaterfallViewController.h; sourceTree = "<group>"; };
 		1CDE96B01CCDEBAD00FF56AE /* NewWorkListWaterfallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewWorkListWaterfallViewController.m; sourceTree = "<group>"; };
 		1CDE96B21CCDEC8200FF56AE /* NewWorkWaterfallModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewWorkWaterfallModel.h; sourceTree = "<group>"; };
 		1CDE96B31CCDEC8200FF56AE /* NewWorkWaterfallModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewWorkWaterfallModel.m; sourceTree = "<group>"; };
-		1CDE96B51CCDEF4100FF56AE /* NewWorkListWaterfallCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewWorkListWaterfallCell.h; sourceTree = "<group>"; };
-		1CDE96B61CCDEF4100FF56AE /* NewWorkListWaterfallCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewWorkListWaterfallCell.m; sourceTree = "<group>"; };
 		1CDE96F71CCE11AE00FF56AE /* RecipeSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeSearchBar.h; sourceTree = "<group>"; };
 		1CDE96F81CCE11AE00FF56AE /* RecipeSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeSearchBar.m; sourceTree = "<group>"; };
 		1CE02C641CCEFE2500337539 /* RecipeSearchCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeSearchCollectionCell.h; sourceTree = "<group>"; };
@@ -176,6 +198,63 @@
 		770FC5CA1CCE1E250047F5E5 /* HyTransitions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HyTransitions.m; sourceTree = "<group>"; };
 		770FC5CB1CCE1E250047F5E5 /* SpinerLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpinerLayer.h; sourceTree = "<group>"; };
 		770FC5CC1CCE1E250047F5E5 /* SpinerLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpinerLayer.m; sourceTree = "<group>"; };
+		773AE8DE1CCF594F0000A46C /* NSURL+AppendingURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+AppendingURL.h"; sourceTree = "<group>"; };
+		773AE8DF1CCF594F0000A46C /* NSURL+AppendingURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+AppendingURL.m"; sourceTree = "<group>"; };
+		773AE8E11CCF59880000A46C /* NewRecipeDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewRecipeDetailModel.h; sourceTree = "<group>"; };
+		773AE8E21CCF59880000A46C /* NewRecipeDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewRecipeDetailModel.m; sourceTree = "<group>"; };
+		773AE8E31CCF59880000A46C /* IngredientsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IngredientsModel.h; sourceTree = "<group>"; };
+		773AE8E41CCF59880000A46C /* IngredientsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IngredientsModel.m; sourceTree = "<group>"; };
+		773AE8E51CCF59880000A46C /* Makingsteps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Makingsteps.h; sourceTree = "<group>"; };
+		773AE8E61CCF59880000A46C /* Makingsteps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Makingsteps.m; sourceTree = "<group>"; };
+		773AE8E71CCF59880000A46C /* CommentsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentsModel.h; sourceTree = "<group>"; };
+		773AE8E81CCF59880000A46C /* CommentsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentsModel.m; sourceTree = "<group>"; };
+		773AE8E91CCF59880000A46C /* NewUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewUserModel.h; sourceTree = "<group>"; };
+		773AE8EA1CCF59880000A46C /* NewUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewUserModel.m; sourceTree = "<group>"; };
+		773AE8F01CCF59AB0000A46C /* NewRecipeDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewRecipeDetailController.h; sourceTree = "<group>"; };
+		773AE8F11CCF59AB0000A46C /* NewRecipeDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewRecipeDetailController.m; sourceTree = "<group>"; };
+		773AE8F31CCF59C10000A46C /* RecipeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetailViewController.h; sourceTree = "<group>"; };
+		773AE8F41CCF59C10000A46C /* RecipeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailViewController.m; sourceTree = "<group>"; };
+		773AE8FF1CCF5A1B0000A46C /* RecipeListWaterfallCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeListWaterfallCell.h; sourceTree = "<group>"; };
+		773AE9001CCF5A1B0000A46C /* RecipeListWaterfallCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeListWaterfallCell.m; sourceTree = "<group>"; };
+		773AE9011CCF5A1B0000A46C /* NewWorkListWaterfallCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewWorkListWaterfallCell.h; sourceTree = "<group>"; };
+		773AE9021CCF5A1B0000A46C /* NewWorkListWaterfallCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewWorkListWaterfallCell.m; sourceTree = "<group>"; };
+		773AE9031CCF5A1B0000A46C /* RecipeWaterfallFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeWaterfallFlowLayout.h; sourceTree = "<group>"; };
+		773AE9041CCF5A1B0000A46C /* RecipeWaterfallFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeWaterfallFlowLayout.m; sourceTree = "<group>"; };
+		773AE9081CCF5A310000A46C /* RecipeDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetailModel.h; sourceTree = "<group>"; };
+		773AE9091CCF5A310000A46C /* RecipeDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailModel.m; sourceTree = "<group>"; };
+		773AE90A1CCF5A310000A46C /* StepListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepListModel.h; sourceTree = "<group>"; };
+		773AE90B1CCF5A310000A46C /* StepListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepListModel.m; sourceTree = "<group>"; };
+		773AE90C1CCF5A310000A46C /* materialListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = materialListModel.h; sourceTree = "<group>"; };
+		773AE90D1CCF5A310000A46C /* materialListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = materialListModel.m; sourceTree = "<group>"; };
+		773AE9111CCF5A410000A46C /* VideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoModel.h; sourceTree = "<group>"; };
+		773AE9121CCF5A410000A46C /* VideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoModel.m; sourceTree = "<group>"; };
+		773AE9141CCF5A4E0000A46C /* PlayVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayVIew.h; sourceTree = "<group>"; };
+		773AE9151CCF5A4E0000A46C /* PlayVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayVIew.m; sourceTree = "<group>"; };
+		773AE9161CCF5A4E0000A46C /* PlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayView.xib; sourceTree = "<group>"; };
+		773AE9171CCF5A4E0000A46C /* VideoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoTableViewCell.h; sourceTree = "<group>"; };
+		773AE9181CCF5A4E0000A46C /* VideoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoTableViewCell.m; sourceTree = "<group>"; };
+		773AE9191CCF5A4E0000A46C /* VideoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoTableViewCell.xib; sourceTree = "<group>"; };
+		773AE91E1CCF5A6B0000A46C /* AVPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVPlayerController.h; sourceTree = "<group>"; };
+		773AE91F1CCF5A6B0000A46C /* AVPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVPlayerController.m; sourceTree = "<group>"; };
+		773AE9201CCF5A6B0000A46C /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		773AE9211CCF5A6B0000A46C /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		773AE9241CCF5B420000A46C /* RecipeDetailFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetailFooterView.h; sourceTree = "<group>"; };
+		773AE9251CCF5B420000A46C /* RecipeDetailFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailFooterView.m; sourceTree = "<group>"; };
+		773AE9261CCF5B420000A46C /* RecipeDetailFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecipeDetailFooterView.xib; sourceTree = "<group>"; };
+		773AE9271CCF5B420000A46C /* NewRecipeDetailFootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewRecipeDetailFootView.h; sourceTree = "<group>"; };
+		773AE9281CCF5B420000A46C /* NewRecipeDetailFootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewRecipeDetailFootView.m; sourceTree = "<group>"; };
+		773AE9291CCF5B420000A46C /* NewRecipeDetailFootView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewRecipeDetailFootView.xib; sourceTree = "<group>"; };
+		773AE92A1CCF5B420000A46C /* NewRecipeDetailStepCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewRecipeDetailStepCell.h; sourceTree = "<group>"; };
+		773AE92B1CCF5B420000A46C /* NewRecipeDetailStepCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewRecipeDetailStepCell.m; sourceTree = "<group>"; };
+		773AE92C1CCF5B420000A46C /* NewRecipeDetailStepCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewRecipeDetailStepCell.xib; sourceTree = "<group>"; };
+		773AE92D1CCF5B420000A46C /* RecipeDetailHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetailHeaderView.h; sourceTree = "<group>"; };
+		773AE92E1CCF5B420000A46C /* RecipeDetailHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailHeaderView.m; sourceTree = "<group>"; };
+		773AE92F1CCF5B420000A46C /* RecipeDetailHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecipeDetailHeaderView.xib; sourceTree = "<group>"; };
+		773AE9301CCF5B420000A46C /* RecipeMaterialCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeMaterialCell.h; sourceTree = "<group>"; };
+		773AE9311CCF5B420000A46C /* RecipeMaterialCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeMaterialCell.m; sourceTree = "<group>"; };
+		773AE9321CCF5B420000A46C /* RecipeMaterialCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecipeMaterialCell.xib; sourceTree = "<group>"; };
+		773AE9331CCF5B420000A46C /* RecipeDetailStepCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetailStepCell.h; sourceTree = "<group>"; };
+		773AE9341CCF5B420000A46C /* RecipeDetailStepCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailStepCell.m; sourceTree = "<group>"; };
 		77A8CEA81CCB042F00A5CB46 /* Cook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77A8CEAC1CCB042F00A5CB46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		77A8CEAE1CCB042F00A5CB46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -213,8 +292,6 @@
 		77A8CF3F1CCB09CF00A5CB46 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		77A8CF401CCB0ACE00A5CB46 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		77A8CF411CCB0ACE00A5CB46 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		77A8CF651CCB0CB300A5CB46 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
-		77A8CF661CCB0CB300A5CB46 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
 		77A8CF6D1CCB224800A5CB46 /* BaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewCell.h; sourceTree = "<group>"; };
 		77A8CF6E1CCB224800A5CB46 /* BaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionViewCell.m; sourceTree = "<group>"; };
 		77A8CF6F1CCB224800A5CB46 /* BaseCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -417,6 +494,16 @@
 		77A8CEE31CCB074900A5CB46 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				773AE8E11CCF59880000A46C /* NewRecipeDetailModel.h */,
+				773AE8E21CCF59880000A46C /* NewRecipeDetailModel.m */,
+				773AE8E31CCF59880000A46C /* IngredientsModel.h */,
+				773AE8E41CCF59880000A46C /* IngredientsModel.m */,
+				773AE8E51CCF59880000A46C /* Makingsteps.h */,
+				773AE8E61CCF59880000A46C /* Makingsteps.m */,
+				773AE8E71CCF59880000A46C /* CommentsModel.h */,
+				773AE8E81CCF59880000A46C /* CommentsModel.m */,
+				773AE8E91CCF59880000A46C /* NewUserModel.h */,
+				773AE8EA1CCF59880000A46C /* NewUserModel.m */,
 				1CDD52DB1CCB716300A6C837 /* RecipeCategoryModel.h */,
 				1CDD52DD1CCB718100A6C837 /* RecipeCategoryModel.m */,
 				1C8B09041CCBB9BB005289C0 /* RecipeListWaterfallModel.h */,
@@ -432,12 +519,6 @@
 		77A8CEE41CCB074900A5CB46 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				1CDD52FA1CCB7E2100A6C837 /* RecipeListWaterfallCell.h */,
-				1CDD52FB1CCB7E2100A6C837 /* RecipeListWaterfallCell.m */,
-				1CDE96B51CCDEF4100FF56AE /* NewWorkListWaterfallCell.h */,
-				1CDE96B61CCDEF4100FF56AE /* NewWorkListWaterfallCell.m */,
-				1CDE96AE1CCDEAED00FF56AE /* RecipeWaterfallFlowLayout.h */,
-				1CDE96AC1CCDEAE400FF56AE /* RecipeWaterfallFlowLayout.m */,
 				1CE02C641CCEFE2500337539 /* RecipeSearchCollectionCell.h */,
 				1CE02C651CCEFE2500337539 /* RecipeSearchCollectionCell.m */,
 				1CE02C661CCEFE2500337539 /* RecipeSearchReusableView.h */,
@@ -457,6 +538,8 @@
 				1CE02C6B1CCEFE4200337539 /* RecipeListTableViewController.m */,
 				1CDE96AF1CCDEBAD00FF56AE /* NewWorkListWaterfallViewController.h */,
 				1CDE96B01CCDEBAD00FF56AE /* NewWorkListWaterfallViewController.m */,
+				773AE8F01CCF59AB0000A46C /* NewRecipeDetailController.h */,
+				773AE8F11CCF59AB0000A46C /* NewRecipeDetailController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -487,6 +570,8 @@
 				77A8CF2F1CCB08A500A5CB46 /* UIView+ChangeFrame.m */,
 				77A8CF321CCB08A500A5CB46 /* NSTimer+Addition.h */,
 				77A8CF331CCB08A500A5CB46 /* NSTimer+Addition.m */,
+				773AE8DE1CCF594F0000A46C /* NSURL+AppendingURL.h */,
+				773AE8DF1CCF594F0000A46C /* NSURL+AppendingURL.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -650,8 +735,12 @@
 		77A8CF5F1CCB0C2000A5CB46 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				77A8CF651CCB0CB300A5CB46 /* VideoViewController.h */,
-				77A8CF661CCB0CB300A5CB46 /* VideoViewController.m */,
+				773AE91E1CCF5A6B0000A46C /* AVPlayerController.h */,
+				773AE91F1CCF5A6B0000A46C /* AVPlayerController.m */,
+				773AE9201CCF5A6B0000A46C /* VideoViewController.h */,
+				773AE9211CCF5A6B0000A46C /* VideoViewController.m */,
+				773AE8F31CCF59C10000A46C /* RecipeDetailViewController.h */,
+				773AE8F41CCF59C10000A46C /* RecipeDetailViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -659,6 +748,14 @@
 		77A8CF601CCB0C2000A5CB46 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				773AE9081CCF5A310000A46C /* RecipeDetailModel.h */,
+				773AE9091CCF5A310000A46C /* RecipeDetailModel.m */,
+				773AE90A1CCF5A310000A46C /* StepListModel.h */,
+				773AE90B1CCF5A310000A46C /* StepListModel.m */,
+				773AE90C1CCF5A310000A46C /* materialListModel.h */,
+				773AE90D1CCF5A310000A46C /* materialListModel.m */,
+				773AE9111CCF5A410000A46C /* VideoModel.h */,
+				773AE9121CCF5A410000A46C /* VideoModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -666,6 +763,35 @@
 		77A8CF611CCB0C2000A5CB46 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				773AE9241CCF5B420000A46C /* RecipeDetailFooterView.h */,
+				773AE9251CCF5B420000A46C /* RecipeDetailFooterView.m */,
+				773AE9261CCF5B420000A46C /* RecipeDetailFooterView.xib */,
+				773AE9271CCF5B420000A46C /* NewRecipeDetailFootView.h */,
+				773AE9281CCF5B420000A46C /* NewRecipeDetailFootView.m */,
+				773AE9291CCF5B420000A46C /* NewRecipeDetailFootView.xib */,
+				773AE92A1CCF5B420000A46C /* NewRecipeDetailStepCell.h */,
+				773AE92B1CCF5B420000A46C /* NewRecipeDetailStepCell.m */,
+				773AE92C1CCF5B420000A46C /* NewRecipeDetailStepCell.xib */,
+				773AE92D1CCF5B420000A46C /* RecipeDetailHeaderView.h */,
+				773AE92E1CCF5B420000A46C /* RecipeDetailHeaderView.m */,
+				773AE92F1CCF5B420000A46C /* RecipeDetailHeaderView.xib */,
+				773AE9301CCF5B420000A46C /* RecipeMaterialCell.h */,
+				773AE9311CCF5B420000A46C /* RecipeMaterialCell.m */,
+				773AE9321CCF5B420000A46C /* RecipeMaterialCell.xib */,
+				773AE9331CCF5B420000A46C /* RecipeDetailStepCell.h */,
+				773AE9341CCF5B420000A46C /* RecipeDetailStepCell.m */,
+				773AE9141CCF5A4E0000A46C /* PlayVIew.h */,
+				773AE9151CCF5A4E0000A46C /* PlayVIew.m */,
+				773AE9161CCF5A4E0000A46C /* PlayView.xib */,
+				773AE9171CCF5A4E0000A46C /* VideoTableViewCell.h */,
+				773AE9181CCF5A4E0000A46C /* VideoTableViewCell.m */,
+				773AE9191CCF5A4E0000A46C /* VideoTableViewCell.xib */,
+				773AE8FF1CCF5A1B0000A46C /* RecipeListWaterfallCell.h */,
+				773AE9001CCF5A1B0000A46C /* RecipeListWaterfallCell.m */,
+				773AE9011CCF5A1B0000A46C /* NewWorkListWaterfallCell.h */,
+				773AE9021CCF5A1B0000A46C /* NewWorkListWaterfallCell.m */,
+				773AE9031CCF5A1B0000A46C /* RecipeWaterfallFlowLayout.h */,
+				773AE9041CCF5A1B0000A46C /* RecipeWaterfallFlowLayout.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -794,16 +920,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				773AE93C1CCF5B420000A46C /* RecipeDetailHeaderView.xib in Resources */,
 				77A8CF761CCB224800A5CB46 /* BaseTableViewCell.xib in Resources */,
 				770FC5BC1CCE1DF10047F5E5 /* CYloginRegisterViewController.xib in Resources */,
 				1CE02C6E1CCEFFC200337539 /* HomeMoreCookBooksModelCell.xib in Resources */,
 				1C031F431CCF513400513257 /* MySelfTableView.xib in Resources */,
+				773AE9381CCF5B420000A46C /* NewRecipeDetailFootView.xib in Resources */,
+				773AE91D1CCF5A4E0000A46C /* VideoTableViewCell.xib in Resources */,
 				77A8CEBB1CCB042F00A5CB46 /* LaunchScreen.storyboard in Resources */,
+				773AE93E1CCF5B420000A46C /* RecipeMaterialCell.xib in Resources */,
 				77A8CEB81CCB042F00A5CB46 /* Assets.xcassets in Resources */,
 				77A8CF0F1CCB082200A5CB46 /* BaseViewController.xib in Resources */,
 				1C031F441CCF513400513257 /* MyselfUserInfoHeaderView.xib in Resources */,
 				77A8CF741CCB224800A5CB46 /* BaseCollectionViewCell.xib in Resources */,
 				77A8CEB61CCB042F00A5CB46 /* Main.storyboard in Resources */,
+				773AE91B1CCF5A4E0000A46C /* PlayView.xib in Resources */,
+				773AE93A1CCF5B420000A46C /* NewRecipeDetailStepCell.xib in Resources */,
+				773AE9361CCF5B420000A46C /* RecipeDetailFooterView.xib in Resources */,
 				1C031F411CCF513400513257 /* MyselfHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -886,16 +1019,25 @@
 				79E45ECE1CCB536C004F4234 /* HomeAdvertsModel.m in Sources */,
 				79EB61B31CCE183800A6E23D /* HomeReferrerModel.m in Sources */,
 				77A8CF351CCB08A500A5CB46 /* UIView+ChangeFrame.m in Sources */,
+				773AE91C1CCF5A4E0000A46C /* VideoTableViewCell.m in Sources */,
 				1CDD52F31CCB71C000A6C837 /* TYCircleView.m in Sources */,
+				773AE9051CCF5A1B0000A46C /* RecipeListWaterfallCell.m in Sources */,
 				77A8CF0E1CCB082200A5CB46 /* BaseViewController.m in Sources */,
+				773AE9071CCF5A1B0000A46C /* RecipeWaterfallFlowLayout.m in Sources */,
 				1CDD52E11CCB71A500A6C837 /* RecipeViewController.m in Sources */,
+				773AE93F1CCF5B420000A46C /* RecipeDetailStepCell.m in Sources */,
 				1CDD52D21CCB48C500A6C837 /* LoadingDataAnimation.m in Sources */,
+				773AE8F21CCF59AB0000A46C /* NewRecipeDetailController.m in Sources */,
 				1C031F491CCF513E00513257 /* MyselfUserInfoViewController.m in Sources */,
-				77A8CF671CCB0CB300A5CB46 /* VideoViewController.m in Sources */,
 				1CE02C681CCEFE2500337539 /* RecipeSearchCollectionCell.m in Sources */,
+				773AE9371CCF5B420000A46C /* NewRecipeDetailFootView.m in Sources */,
+				773AE8EE1CCF59880000A46C /* CommentsModel.m in Sources */,
 				79EB61B01CCE183800A6E23D /* HomeHotCategoriesModel.m in Sources */,
+				773AE8F51CCF59C10000A46C /* RecipeDetailViewController.m in Sources */,
 				77A8CF751CCB224800A5CB46 /* BaseTableViewCell.m in Sources */,
 				77A8CF341CCB08A500A5CB46 /* UIBarButtonItem+Extension.m in Sources */,
+				773AE9351CCF5B420000A46C /* RecipeDetailFooterView.m in Sources */,
+				773AE8EC1CCF59880000A46C /* IngredientsModel.m in Sources */,
 				1CDE96B41CCDEC8200FF56AE /* NewWorkWaterfallModel.m in Sources */,
 				1CE02C691CCEFE2500337539 /* RecipeSearchReusableView.m in Sources */,
 				1CDD52F61CCB73CE00A6C837 /* RecipeListWaterfallViewController.m in Sources */,
@@ -910,31 +1052,43 @@
 				770FC5CD1CCE1E250047F5E5 /* CYLoginRegisterTextField.m in Sources */,
 				1CDD52DE1CCB718100A6C837 /* RecipeCategoryModel.m in Sources */,
 				1CDE96F91CCE11AE00FF56AE /* RecipeSearchBar.m in Sources */,
+				773AE8EF1CCF59880000A46C /* NewUserModel.m in Sources */,
+				773AE91A1CCF5A4E0000A46C /* PlayVIew.m in Sources */,
 				1C031F421CCF513400513257 /* MySelfTableView.m in Sources */,
 				1C031F401CCF513400513257 /* MyselfHeaderView.m in Sources */,
 				1CDD52EF1CCB71C000A6C837 /* TYCircleCell.m in Sources */,
 				1C031F381CCF512900513257 /* UserInofManager.m in Sources */,
-				1CDE96B71CCDEF4100FF56AE /* NewWorkListWaterfallCell.m in Sources */,
-				1CDD52FC1CCB7E2100A6C837 /* RecipeListWaterfallCell.m in Sources */,
 				1CDD52F01CCB71C000A6C837 /* TYCircleCollectionView.m in Sources */,
+				773AE93D1CCF5B420000A46C /* RecipeMaterialCell.m in Sources */,
 				1C8B09091CCBBB16005289C0 /* RecipeReferrerModel.m in Sources */,
+				773AE9221CCF5A6B0000A46C /* AVPlayerController.m in Sources */,
+				773AE90E1CCF5A310000A46C /* RecipeDetailModel.m in Sources */,
 				770FC5CF1CCE1E250047F5E5 /* HyLoglnButton.m in Sources */,
+				773AE9101CCF5A310000A46C /* materialListModel.m in Sources */,
+				773AE9391CCF5B420000A46C /* NewRecipeDetailStepCell.m in Sources */,
 				1C8B09061CCBB9BB005289C0 /* RecipeListWaterfallModel.m in Sources */,
 				770FC5D11CCE1E250047F5E5 /* SpinerLayer.m in Sources */,
 				1CDD52F21CCB71C000A6C837 /* TYCircleMenu.m in Sources */,
+				773AE8E01CCF594F0000A46C /* NSURL+AppendingURL.m in Sources */,
+				773AE93B1CCF5B420000A46C /* RecipeDetailHeaderView.m in Sources */,
 				770FC5C21CCE1E180047F5E5 /* URLRequest.m in Sources */,
 				79EB61A31CCE182600A6E23D /* HomeFooterView.m in Sources */,
 				1C031F371CCF512900513257 /* MyselfIDModel.m in Sources */,
 				79EB61B11CCE183800A6E23D /* HomeMoreCookBooksModel.m in Sources */,
 				77A8CEB01CCB042F00A5CB46 /* AppDelegate.m in Sources */,
-				1CDE96AD1CCDEAE400FF56AE /* RecipeWaterfallFlowLayout.m in Sources */,
+				773AE9231CCF5A6B0000A46C /* VideoViewController.m in Sources */,
 				77A8CF731CCB224800A5CB46 /* BaseCollectionViewCell.m in Sources */,
 				79EB61B21CCE183800A6E23D /* HomeNewUserModel.m in Sources */,
+				773AE90F1CCF5A310000A46C /* StepListModel.m in Sources */,
+				773AE9131CCF5A410000A46C /* VideoModel.m in Sources */,
 				77A8CEF91CCB07FE00A5CB46 /* BaseModel.m in Sources */,
 				77A8CF101CCB082200A5CB46 /* BaseNavigationViewController.m in Sources */,
 				1CDE96B11CCDEBAD00FF56AE /* NewWorkListWaterfallViewController.m in Sources */,
+				773AE8ED1CCF59880000A46C /* Makingsteps.m in Sources */,
 				77A8CEAD1CCB042F00A5CB46 /* main.m in Sources */,
 				77A8CF421CCB0ACE00A5CB46 /* HomeViewController.m in Sources */,
+				773AE9061CCF5A1B0000A46C /* NewWorkListWaterfallCell.m in Sources */,
+				773AE8EB1CCF59880000A46C /* NewRecipeDetailModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,7 +10,7 @@
 #import "RecipeListWaterfallModel.h"
 #import "RecipeListWaterfallCell.h"
 #import "RecipeReferrerModel.h"
-
+#import "NewRecipeDetailController.h"
 @interface RecipeListWaterfallViewController () <UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 {
     NSInteger _pageNum;
@@ -104,6 +104,11 @@
     NSURL *url = [NSURL URLWithString:[self.dataArray[indexPath.row] imageUrl]];
     UIImage *image = [UIImage imageWithData:[NSData dataWithContentsOfURL:url]];
     NSLog(@"%f------%f", image.size.width, image.size.height);
+
+    NewRecipeDetailController *recipeDetailVC = [[NewRecipeDetailController alloc] init];
+    RecipeReferrerModel *referModel = self.dataArray[indexPath.row];
+    recipeDetailVC.ID = referModel.ID;
+    [self.navigationController pushViewController:recipeDetailVC animated:YES];
 
 }
 

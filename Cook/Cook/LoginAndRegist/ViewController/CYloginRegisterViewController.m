@@ -11,6 +11,7 @@
 #import "CYLoginRegisterTextField.h"
 #import "NetWorkrequestManage.h"
 #import <CommonCrypto/CommonCrypto.h> //MD5加密文件
+#import "UserInofManager.h"
 
 
 @interface CYloginRegisterViewController ()
@@ -141,7 +142,8 @@
                 [button ExitAnimationCompletion:^{
                     button.enabled = YES;
                     [self dismissViewControllerAnimated:YES completion:nil];
-                    NSLog(@"执行跳转指令%@",dataDict);
+//                    NSLog(@"执行跳转指令%@",dataDict);
+                    [UserInofManager conserveSessionID:dataDict[@"sessionId"]];
                 }];
             } else {
                 UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(self.view.frame.size.width,self.view.frame.size.height / 2 , 300, 40)];
@@ -292,6 +294,8 @@
                 button.enabled = YES;
                 //跳转
                 NSLog(@"%@",dicData);
+                [UserInofManager conserveSessionID:dicData[@"sessionId"]];
+                [self dismissViewControllerAnimated:YES completion:nil];
             }
                   });
         } error:^(NSError *error) {

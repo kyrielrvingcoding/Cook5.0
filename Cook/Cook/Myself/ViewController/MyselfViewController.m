@@ -8,11 +8,13 @@
 
 #import "MyselfViewController.h"
 #import "CYloginRegisterViewController.h"
-#import "MySelfTableView.h"
+#import "MySelfHeaderView.h"
+#import "UserInofManager.h"
+#import "PraiseAndVisitViewController.h"
 
 @interface MyselfViewController ()<UITableViewDelegate, UITableViewDataSource>
 
-@property (nonatomic, strong) MySelfTableView *myselfTableView;
+@property (nonatomic, strong) UITableView *tableView;
 
 @end
 
@@ -21,14 +23,44 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor redColor];
-    self.navigationController.navigationBarHidden = YES;
-    _myselfTableView = [[[NSBundle mainBundle] loadNibNamed:@"MySelfTableView" owner:nil options:nil] lastObject];
-    _myselfTableView.dataSource = self;
-    _myselfTableView.delegate = self;
-    [self.view addSubview:_myselfTableView];
-    
+    [self createTableView];
 //    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(change)];
 //    [self.view addGestureRecognizer:tap];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    self.navigationController.navigationBarHidden = YES;
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    self.navigationController.navigationBarHidden = NO;
+}
+
+- (void)createTableView {
+    _tableView = [[UITableView alloc] initWithFrame:SCREENBOUNDS style:UITableViewStylePlain];
+    _tableView.dataSource = self;
+    _tableView.delegate = self;
+    [self.view addSubview:_tableView];
+    MyselfHeaderView *headerView = [[[NSBundle mainBundle] loadNibNamed:@"MyselfHeaderView" owner:nil options:nil]lastObject];
+    self.tableView.tableHeaderView = headerView;
+    headerView.judgeLoginStatus = ^(UIButton *button) {
+        if ([[UserInofManager getSessionID] isEqualToString:@""]) {
+            CYloginRegisterViewController *loginVC = [[CYloginRegisterViewController alloc] init];
+            [self presentViewController:loginVC animated:YES completion:nil];
+        } else {
+            PraiseAndVisitViewController *praiseVC = [[PraiseAndVisitViewController alloc] init];
+            if (button.tag == 2000) {
+                praiseVC.type = @"1";
+                praiseVC.titleName = @"我的关注";
+            } else {
+                praiseVC.type = @"2";
+                praiseVC.titleName = @"我的粉丝";
+            }
+            [self.navigationController pushViewController:praiseVC animated:YES];
+        }
+    };
 }
 
 

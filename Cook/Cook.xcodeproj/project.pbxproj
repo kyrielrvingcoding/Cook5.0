@@ -11,11 +11,12 @@
 		1C031F381CCF512900513257 /* UserInofManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C031F361CCF512900513257 /* UserInofManager.m */; };
 		1C031F401CCF513400513257 /* MyselfHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C031F3A1CCF513400513257 /* MyselfHeaderView.m */; };
 		1C031F411CCF513400513257 /* MyselfHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C031F3B1CCF513400513257 /* MyselfHeaderView.xib */; };
-		1C031F421CCF513400513257 /* MySelfTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C031F3D1CCF513400513257 /* MySelfTableView.m */; };
-		1C031F431CCF513400513257 /* MySelfTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C031F3E1CCF513400513257 /* MySelfTableView.xib */; };
-		1C031F441CCF513400513257 /* MyselfUserInfoHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C031F3F1CCF513400513257 /* MyselfUserInfoHeaderView.xib */; };
 		1C031F491CCF513E00513257 /* MyselfUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C031F461CCF513E00513257 /* MyselfUserInfoViewController.m */; };
 		1C031F4A1CCF513E00513257 /* MyselfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C031F481CCF513E00513257 /* MyselfViewController.m */; };
+		1C031F4D1CCF683400513257 /* UserLoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C031F4C1CCF683400513257 /* UserLoginModel.m */; };
+		1C031F501CCF8DCD00513257 /* PraiseAndVisitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C031F4F1CCF8DCD00513257 /* PraiseAndVisitViewController.m */; };
+		1C031F531CCF8F3800513257 /* PraiseAndVisitTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C031F521CCF8F3800513257 /* PraiseAndVisitTableViewCell.m */; };
+		1C031F551CCF8F5400513257 /* PraiseAndVisitTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C031F541CCF8F5400513257 /* PraiseAndVisitTableViewCell.xib */; };
 		1C8B09061CCBB9BB005289C0 /* RecipeListWaterfallModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8B09051CCBB9BB005289C0 /* RecipeListWaterfallModel.m */; };
 		1C8B09091CCBBB16005289C0 /* RecipeReferrerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8B09081CCBBB16005289C0 /* RecipeReferrerModel.m */; };
 		1CDD52D21CCB48C500A6C837 /* LoadingDataAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDD52D11CCB48C500A6C837 /* LoadingDataAnimation.m */; };
@@ -135,14 +136,17 @@
 		1C031F391CCF513400513257 /* MyselfHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyselfHeaderView.h; sourceTree = "<group>"; };
 		1C031F3A1CCF513400513257 /* MyselfHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyselfHeaderView.m; sourceTree = "<group>"; };
 		1C031F3B1CCF513400513257 /* MyselfHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyselfHeaderView.xib; sourceTree = "<group>"; };
-		1C031F3C1CCF513400513257 /* MySelfTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySelfTableView.h; sourceTree = "<group>"; };
-		1C031F3D1CCF513400513257 /* MySelfTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySelfTableView.m; sourceTree = "<group>"; };
-		1C031F3E1CCF513400513257 /* MySelfTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MySelfTableView.xib; sourceTree = "<group>"; };
-		1C031F3F1CCF513400513257 /* MyselfUserInfoHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyselfUserInfoHeaderView.xib; sourceTree = "<group>"; };
 		1C031F451CCF513E00513257 /* MyselfUserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyselfUserInfoViewController.h; sourceTree = "<group>"; };
 		1C031F461CCF513E00513257 /* MyselfUserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyselfUserInfoViewController.m; sourceTree = "<group>"; };
 		1C031F471CCF513E00513257 /* MyselfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyselfViewController.h; sourceTree = "<group>"; };
 		1C031F481CCF513E00513257 /* MyselfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyselfViewController.m; sourceTree = "<group>"; };
+		1C031F4B1CCF683400513257 /* UserLoginModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserLoginModel.h; sourceTree = "<group>"; };
+		1C031F4C1CCF683400513257 /* UserLoginModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserLoginModel.m; sourceTree = "<group>"; };
+		1C031F4E1CCF8DCD00513257 /* PraiseAndVisitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PraiseAndVisitViewController.h; sourceTree = "<group>"; };
+		1C031F4F1CCF8DCD00513257 /* PraiseAndVisitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PraiseAndVisitViewController.m; sourceTree = "<group>"; };
+		1C031F511CCF8F3800513257 /* PraiseAndVisitTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PraiseAndVisitTableViewCell.h; sourceTree = "<group>"; };
+		1C031F521CCF8F3800513257 /* PraiseAndVisitTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PraiseAndVisitTableViewCell.m; sourceTree = "<group>"; };
+		1C031F541CCF8F5400513257 /* PraiseAndVisitTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PraiseAndVisitTableViewCell.xib; sourceTree = "<group>"; };
 		1C8B09041CCBB9BB005289C0 /* RecipeListWaterfallModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeListWaterfallModel.h; sourceTree = "<group>"; };
 		1C8B09051CCBB9BB005289C0 /* RecipeListWaterfallModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeListWaterfallModel.m; sourceTree = "<group>"; };
 		1C8B09071CCBBB16005289C0 /* RecipeReferrerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeReferrerModel.h; sourceTree = "<group>"; };
@@ -372,10 +376,9 @@
 				1C031F391CCF513400513257 /* MyselfHeaderView.h */,
 				1C031F3A1CCF513400513257 /* MyselfHeaderView.m */,
 				1C031F3B1CCF513400513257 /* MyselfHeaderView.xib */,
-				1C031F3C1CCF513400513257 /* MySelfTableView.h */,
-				1C031F3D1CCF513400513257 /* MySelfTableView.m */,
-				1C031F3E1CCF513400513257 /* MySelfTableView.xib */,
-				1C031F3F1CCF513400513257 /* MyselfUserInfoHeaderView.xib */,
+				1C031F511CCF8F3800513257 /* PraiseAndVisitTableViewCell.h */,
+				1C031F521CCF8F3800513257 /* PraiseAndVisitTableViewCell.m */,
+				1C031F541CCF8F5400513257 /* PraiseAndVisitTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -387,6 +390,8 @@
 				1C031F461CCF513E00513257 /* MyselfUserInfoViewController.m */,
 				1C031F471CCF513E00513257 /* MyselfViewController.h */,
 				1C031F481CCF513E00513257 /* MyselfViewController.m */,
+				1C031F4E1CCF8DCD00513257 /* PraiseAndVisitViewController.h */,
+				1C031F4F1CCF8DCD00513257 /* PraiseAndVisitViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -593,6 +598,8 @@
 				770FC5BE1CCE1E180047F5E5 /* NetWorkrequestManage.m */,
 				770FC5BF1CCE1E180047F5E5 /* URLRequest.h */,
 				770FC5C01CCE1E180047F5E5 /* URLRequest.m */,
+				1C031F4B1CCF683400513257 /* UserLoginModel.h */,
+				1C031F4C1CCF683400513257 /* UserLoginModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -924,19 +931,18 @@
 				77A8CF761CCB224800A5CB46 /* BaseTableViewCell.xib in Resources */,
 				770FC5BC1CCE1DF10047F5E5 /* CYloginRegisterViewController.xib in Resources */,
 				1CE02C6E1CCEFFC200337539 /* HomeMoreCookBooksModelCell.xib in Resources */,
-				1C031F431CCF513400513257 /* MySelfTableView.xib in Resources */,
 				773AE9381CCF5B420000A46C /* NewRecipeDetailFootView.xib in Resources */,
 				773AE91D1CCF5A4E0000A46C /* VideoTableViewCell.xib in Resources */,
 				77A8CEBB1CCB042F00A5CB46 /* LaunchScreen.storyboard in Resources */,
 				773AE93E1CCF5B420000A46C /* RecipeMaterialCell.xib in Resources */,
 				77A8CEB81CCB042F00A5CB46 /* Assets.xcassets in Resources */,
 				77A8CF0F1CCB082200A5CB46 /* BaseViewController.xib in Resources */,
-				1C031F441CCF513400513257 /* MyselfUserInfoHeaderView.xib in Resources */,
 				77A8CF741CCB224800A5CB46 /* BaseCollectionViewCell.xib in Resources */,
 				77A8CEB61CCB042F00A5CB46 /* Main.storyboard in Resources */,
 				773AE91B1CCF5A4E0000A46C /* PlayView.xib in Resources */,
 				773AE93A1CCF5B420000A46C /* NewRecipeDetailStepCell.xib in Resources */,
 				773AE9361CCF5B420000A46C /* RecipeDetailFooterView.xib in Resources */,
+				1C031F551CCF8F5400513257 /* PraiseAndVisitTableViewCell.xib in Resources */,
 				1C031F411CCF513400513257 /* MyselfHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1054,14 +1060,15 @@
 				1CDE96F91CCE11AE00FF56AE /* RecipeSearchBar.m in Sources */,
 				773AE8EF1CCF59880000A46C /* NewUserModel.m in Sources */,
 				773AE91A1CCF5A4E0000A46C /* PlayVIew.m in Sources */,
-				1C031F421CCF513400513257 /* MySelfTableView.m in Sources */,
 				1C031F401CCF513400513257 /* MyselfHeaderView.m in Sources */,
 				1CDD52EF1CCB71C000A6C837 /* TYCircleCell.m in Sources */,
+				1C031F501CCF8DCD00513257 /* PraiseAndVisitViewController.m in Sources */,
 				1C031F381CCF512900513257 /* UserInofManager.m in Sources */,
 				1CDD52F01CCB71C000A6C837 /* TYCircleCollectionView.m in Sources */,
 				773AE93D1CCF5B420000A46C /* RecipeMaterialCell.m in Sources */,
 				1C8B09091CCBBB16005289C0 /* RecipeReferrerModel.m in Sources */,
 				773AE9221CCF5A6B0000A46C /* AVPlayerController.m in Sources */,
+				1C031F4D1CCF683400513257 /* UserLoginModel.m in Sources */,
 				773AE90E1CCF5A310000A46C /* RecipeDetailModel.m in Sources */,
 				770FC5CF1CCE1E250047F5E5 /* HyLoglnButton.m in Sources */,
 				773AE9101CCF5A310000A46C /* materialListModel.m in Sources */,
@@ -1073,6 +1080,7 @@
 				773AE93B1CCF5B420000A46C /* RecipeDetailHeaderView.m in Sources */,
 				770FC5C21CCE1E180047F5E5 /* URLRequest.m in Sources */,
 				79EB61A31CCE182600A6E23D /* HomeFooterView.m in Sources */,
+				1C031F531CCF8F3800513257 /* PraiseAndVisitTableViewCell.m in Sources */,
 				1C031F371CCF512900513257 /* MyselfIDModel.m in Sources */,
 				79EB61B11CCE183800A6E23D /* HomeMoreCookBooksModel.m in Sources */,
 				77A8CEB01CCB042F00A5CB46 /* AppDelegate.m in Sources */,

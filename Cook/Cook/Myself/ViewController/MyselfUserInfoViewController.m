@@ -7,11 +7,9 @@
 //
 
 #import "MyselfUserInfoViewController.h"
-#import "MySelfTableView.h"
 
 @interface MyselfUserInfoViewController ()<UITableViewDelegate, UITableViewDataSource>
 
-@property (nonatomic, strong) MySelfTableView *myselfTableView;
 
 @end
 
@@ -19,10 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _myselfTableView = [[[NSBundle mainBundle] loadNibNamed:@"MySelfTableView" owner:nil options:nil] lastObject];
-    _myselfTableView.dataSource = self;
-    _myselfTableView.delegate = self;
-    [self.view addSubview:_myselfTableView];
+//    _myselfTableView = [[[NSBundle mainBundle] loadNibNamed:@"MySelfTableView" owner:nil options:nil] lastObject];
+//    _myselfTableView.dataSource = self;
+//    _myselfTableView.delegate = self;
+//    [self.view addSubview:_myselfTableView];
 }
 
 #pragma mark ----- 协议方法 -----

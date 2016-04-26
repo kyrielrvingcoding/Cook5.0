@@ -79,7 +79,7 @@
     backgroundImageView.image = [UIImage imageNamed:@"test"];
     UIBlurEffect *blur = [UIBlurEffect effectWithStyle:UIBlurEffectStyleDark];
     UIVisualEffectView *effectView = [[UIVisualEffectView alloc] initWithEffect:blur];
-    effectView.frame = self.frame;
+    effectView.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height + 20);
     effectView.alpha = 0.6;
     [backgroundImageView addSubview:effectView];
 

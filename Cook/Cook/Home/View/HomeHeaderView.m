@@ -40,9 +40,10 @@
 #pragma mark ----- 数据请求 -----
 - (void)requestData {
     
+    NSDictionary *parameters = @{@"m":@"mobile",@"c":@"index",@"a":@"getHomeEntity",@"sessionId":@"f43db4b7e09f0b61717894dd078885d0"};
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
     manager.responseSerializer = [AFHTTPResponseSerializer serializer];
-    [manager GET:@"http://www.xdmeishi.com/index.php?m=mobile&c=index&a=getHomeEntity&sessionId=f43db4b7e09f0b61717894dd078885d0" parameters:nil progress:^(NSProgress * _Nonnull downloadProgress) {
+    [manager GET:@"http://www.xdmeishi.com/index.php" parameters:parameters progress:^(NSProgress * _Nonnull downloadProgress) {
         
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         
@@ -55,7 +56,7 @@
         for (NSDictionary *advertsDic in advertsArray) {
             HomeAdvertsModel * advertsModel = [[HomeAdvertsModel alloc] init];
             [advertsModel setValuesForKeysWithDictionary:advertsDic];
-            if ([advertsModel.ID integerValue] > 1000) {
+            if ([advertsModel.url containsString:@"pc_hash=aa0O12"]) {
                 [self.advertsArray addObject:advertsModel];
             }
         }
@@ -105,19 +106,15 @@
         };
         _cycleScrollView.totalPagesCount = viewsArray.count;
         
-        //  跳转到详情
-//        __weak NSArray *cycelArray = _advertsArray;
-//        __weak typeof(self)headerView = self;
         
-//        _cycleScrollView.TapActionBlock = ^(NSInteger pageIndex) {
-            //            HomeCarouselModel * model = [cycelArray objectAtIndex:pageIndex];
-            //            NSArray *urlArray = [model.uri componentsSeparatedByString:@"?"];
-            //            NSString *idString = urlArray.lastObject;
-            //            NSString *ID = [idString componentsSeparatedByString:@"="].lastObject;
-            //            RecipeDetailViewController *recipeDetailVC = [[RecipeDetailViewController alloc] init];
-            //            recipeDetailVC.ID = ID;
-            //            [homeVC.navigationController pushViewController:recipeDetailVC animated:YES];
-//        };
+        //  跳转到详情
+        __weak NSArray *cycelArray = _advertsArray;
+        
+        _cycleScrollView.TapActionBlock = ^(NSInteger pageIndex) {
+            HomeAdvertsModel * model = [cycelArray objectAtIndex:pageIndex];
+            
+            [[NSNotificationCenter defaultCenter] postNotificationName:@"点击轮播图" object:nil userInfo:@{@"key":model.url}];
+        };
     }
 }
 

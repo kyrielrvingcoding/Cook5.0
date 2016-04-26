@@ -11,6 +11,7 @@
 #import "HomeMoreCookBooksModelCell.h"
 #import "HomeMoreCookBooksModel.h"
 #import "RecipeListTableViewController.h"
+#import "HomeWebViewController.h"
 
 @interface HomeViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -34,6 +35,7 @@
     [self.view addSubview: _hometableView];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(searchButton:) name:@"homeSearchButton" object:nil];
+     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(clickCycleScrollView:) name:@"点击轮播图" object:nil];
     
 }
 
@@ -42,6 +44,13 @@
     RecipeListTableViewController *recipeListVC = [[RecipeListTableViewController alloc] init];
     recipeListVC.keyword = button.titleLabel.text;
     [self.navigationController pushViewController:recipeListVC animated:YES];
+}
+
+- (void)clickCycleScrollView:(NSNotification *)notification {
+    NSString *URL = [notification.userInfo objectForKey:@"key"];
+    HomeWebViewController *homeWebViewVC = [[ HomeWebViewController alloc] init];
+    homeWebViewVC.URL = URL;
+    [self.navigationController pushViewController:homeWebViewVC animated:YES];
 }
 
 #pragma mark ------- tableView协议方法 ------

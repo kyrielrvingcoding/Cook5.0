@@ -98,6 +98,8 @@
 		77A8CF741CCB224800A5CB46 /* BaseCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77A8CF6F1CCB224800A5CB46 /* BaseCollectionViewCell.xib */; };
 		77A8CF751CCB224800A5CB46 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A8CF711CCB224800A5CB46 /* BaseTableViewCell.m */; };
 		77A8CF761CCB224800A5CB46 /* BaseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77A8CF721CCB224800A5CB46 /* BaseTableViewCell.xib */; };
+		79A6C33E1CCFA0D1008A3F23 /* HomeWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A6C33C1CCFA0D1008A3F23 /* HomeWebViewController.m */; };
+		79A6C33F1CCFA0D1008A3F23 /* HomeWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79A6C33D1CCFA0D1008A3F23 /* HomeWebViewController.xib */; };
 		79E45ECE1CCB536C004F4234 /* HomeAdvertsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E45ECD1CCB536C004F4234 /* HomeAdvertsModel.m */; };
 		79EB61A31CCE182600A6E23D /* HomeFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EB619B1CCE182600A6E23D /* HomeFooterView.m */; };
 		79EB61A41CCE182600A6E23D /* HomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EB619D1CCE182600A6E23D /* HomeHeaderView.m */; };
@@ -302,6 +304,9 @@
 		77A8CF701CCB224800A5CB46 /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
 		77A8CF711CCB224800A5CB46 /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
 		77A8CF721CCB224800A5CB46 /* BaseTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseTableViewCell.xib; sourceTree = "<group>"; };
+		79A6C33B1CCFA0D1008A3F23 /* HomeWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeWebViewController.h; sourceTree = "<group>"; };
+		79A6C33C1CCFA0D1008A3F23 /* HomeWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeWebViewController.m; sourceTree = "<group>"; };
+		79A6C33D1CCFA0D1008A3F23 /* HomeWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeWebViewController.xib; sourceTree = "<group>"; };
 		79E45ECC1CCB536C004F4234 /* HomeAdvertsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeAdvertsModel.h; sourceTree = "<group>"; };
 		79E45ECD1CCB536C004F4234 /* HomeAdvertsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeAdvertsModel.m; sourceTree = "<group>"; };
 		79EB619A1CCE182600A6E23D /* HomeFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeFooterView.h; sourceTree = "<group>"; };
@@ -679,6 +684,9 @@
 			children = (
 				77A8CF401CCB0ACE00A5CB46 /* HomeViewController.h */,
 				77A8CF411CCB0ACE00A5CB46 /* HomeViewController.m */,
+				79A6C33B1CCFA0D1008A3F23 /* HomeWebViewController.h */,
+				79A6C33C1CCFA0D1008A3F23 /* HomeWebViewController.m */,
+				79A6C33D1CCFA0D1008A3F23 /* HomeWebViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -935,6 +943,7 @@
 				773AE91D1CCF5A4E0000A46C /* VideoTableViewCell.xib in Resources */,
 				77A8CEBB1CCB042F00A5CB46 /* LaunchScreen.storyboard in Resources */,
 				773AE93E1CCF5B420000A46C /* RecipeMaterialCell.xib in Resources */,
+				79A6C33F1CCFA0D1008A3F23 /* HomeWebViewController.xib in Resources */,
 				77A8CEB81CCB042F00A5CB46 /* Assets.xcassets in Resources */,
 				77A8CF0F1CCB082200A5CB46 /* BaseViewController.xib in Resources */,
 				77A8CF741CCB224800A5CB46 /* BaseCollectionViewCell.xib in Resources */,
@@ -1062,6 +1071,7 @@
 				773AE91A1CCF5A4E0000A46C /* PlayVIew.m in Sources */,
 				1C031F401CCF513400513257 /* MyselfHeaderView.m in Sources */,
 				1CDD52EF1CCB71C000A6C837 /* TYCircleCell.m in Sources */,
+				79A6C33E1CCFA0D1008A3F23 /* HomeWebViewController.m in Sources */,
 				1C031F501CCF8DCD00513257 /* PraiseAndVisitViewController.m in Sources */,
 				1C031F381CCF512900513257 /* UserInofManager.m in Sources */,
 				1CDD52F01CCB71C000A6C837 /* TYCircleCollectionView.m in Sources */,

@@ -14,6 +14,7 @@
 #import "HomeWebViewController.h"
 #import "MyselfUserInfoViewController.h"
 #import "HomeNewUserModel.h"
+#import "LatestDevelopmentViewController.h"
 
 @interface HomeViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -25,6 +26,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationItem.title = @"首页";
     self.view.backgroundColor = [UIColor yellowColor];
     self.navigationController.navigationBar.translucent = NO;
     [LoadingDataAnimation startAnimation];
@@ -40,8 +42,17 @@
      [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(clickCycleScrollView:) name:@"点击轮播图" object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userInfo:) name:@"厨友推荐" object:nil];
     
+    self.navigationItem.rightBarButtonItem = [UIBarButtonItem barButtonItemWithTarget:self action:@selector(showLatestDevelopment) imageName:@"navigationBar_new" highlightImageName:@"navigationBar_new_h"];
+    
 }
 
+//点击导航栏右按钮
+- (void)showLatestDevelopment {
+    LatestDevelopmentViewController *latestVC = [[LatestDevelopmentViewController alloc] init];
+    [self.navigationController pushViewController:latestVC animated:YES];
+}
+
+//点击菜谱分类button
 - (void)searchButton:(NSNotification *)noti {
     UIButton *button = noti.object;
     RecipeListTableViewController *recipeListVC = [[RecipeListTableViewController alloc] init];
@@ -49,6 +60,7 @@
     [self.navigationController pushViewController:recipeListVC animated:YES];
 }
 
+//点击轮播图
 - (void)clickCycleScrollView:(NSNotification *)notification {
     NSString *URL = [notification.userInfo objectForKey:@"key"];
     HomeWebViewController *homeWebViewVC = [[ HomeWebViewController alloc] init];
@@ -56,6 +68,7 @@
     [self.navigationController pushViewController:homeWebViewVC animated:YES];
 }
 
+//点击厨友头像
 - (void)userInfo:(NSNotification *)notification {
     MyselfUserInfoViewController *myselfUserInfo = [[MyselfUserInfoViewController alloc] init];
      HomeNewUserModel *newUserModel = notification.object;

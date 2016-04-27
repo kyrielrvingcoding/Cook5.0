@@ -11,4 +11,6 @@
 
 @interface MyselfUserInfoViewController : BaseViewController
 
+@property (nonatomic, copy) NSString *ID;
+
 @end

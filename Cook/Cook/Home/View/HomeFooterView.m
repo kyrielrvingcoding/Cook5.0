@@ -82,8 +82,6 @@
     _scrollView.contentSize = CGSizeMake((imageViewWidth + 20) * _newuserArray.count, self.frame.size.height - 40);
     _scrollView.backgroundColor = [UIColor colorWithRed:0.95 green:0.95 blue:0.95 alpha:1];
     
-    
-  
     for (int i = 0;i < self.newuserArray.count; i ++) {
         UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(i *
         (imageViewWidth + 20) + 10, 30, imageViewWidth, imageViewWidth)];
@@ -100,10 +98,23 @@
         [_scrollView addSubview:label];
         
         imageView.backgroundColor = [UIColor colorWithRed:arc4random() % 256 /255.0 green:arc4random() % 256 /255.0 blue:arc4random() % 256 /255.0 alpha:1.0];
+        
+        UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tap:)];
+        imageView.userInteractionEnabled = YES;
+        [imageView addGestureRecognizer:tap];
+        
         [_scrollView addSubview:imageView];
        
     }
     [self addSubview:_scrollView];
+}
+
+- (void)tap:(UITapGestureRecognizer *)tap {
+    UIImageView *imageView = (UIImageView *)tap.view;
+    CGFloat offset = CGRectGetMaxX(imageView.frame);
+    NSInteger i = offset / (self.frame.size.height * 0.3 + 20);
+    NSLog(@"%f %ld", self.frame.size.height * 0.3,    i);
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"厨友推荐" object:_newuserArray[i]];
 }
 
 

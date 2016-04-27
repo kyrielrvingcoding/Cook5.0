@@ -12,6 +12,8 @@
 #import "HomeMoreCookBooksModel.h"
 #import "RecipeListTableViewController.h"
 #import "HomeWebViewController.h"
+#import "MyselfUserInfoViewController.h"
+#import "HomeNewUserModel.h"
 
 @interface HomeViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -36,6 +38,7 @@
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(searchButton:) name:@"homeSearchButton" object:nil];
      [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(clickCycleScrollView:) name:@"点击轮播图" object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userInfo:) name:@"厨友推荐" object:nil];
     
 }
 
@@ -51,6 +54,13 @@
     HomeWebViewController *homeWebViewVC = [[ HomeWebViewController alloc] init];
     homeWebViewVC.URL = URL;
     [self.navigationController pushViewController:homeWebViewVC animated:YES];
+}
+
+- (void)userInfo:(NSNotification *)notification {
+    MyselfUserInfoViewController *myselfUserInfo = [[MyselfUserInfoViewController alloc] init];
+     HomeNewUserModel *newUserModel = notification.object;
+    myselfUserInfo.ID = newUserModel.ID;
+    [self.navigationController pushViewController:myselfUserInfo animated:YES];
 }
 
 #pragma mark ------- tableView协议方法 ------
